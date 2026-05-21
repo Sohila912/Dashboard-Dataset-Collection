@@ -8,7 +8,7 @@
     "dataset_source": "https://learn.microsoft.com/en-us/power-bi/create-reports/sample-sales-and-marketing",
     "dataset_file": "Datasets/Sales-and-Marketing-Sample-01.xlsx",
     "dataset_format": "xlsx",
-    "screenshot_file": "Screenshots/Sales-and-Marketing-Sample-01.png",
+    "Dashboard_file": "Dashboards/Sales-and-Marketing-Sample-01.png",
     "business_domain": "Finance & Sales",
     "dashboard_components": [
       "Horizontal Bar Chart (Sales by Segment)",
@@ -41,7 +41,7 @@
   "dataset_source": "https://github.com/yashsdoshi/Sales_report_using_PowerBi/tree/main/Datasets",
   "dataset_file": "Datasets/Order-Sales-Sample-02.csv, Datasets/Details-Sales-Sample-02.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Sales-Sample-02.png",
+  "Dashboard_file": "Dashboards/Sales-Sample-02.png",
   "business_domain": "E-commerce & Retail Sales",
   "dashboard_components": [
     "KPI Cards (Sum of Quantity, Sum of Profit, Sum of Amount)",
@@ -77,7 +77,7 @@
   "dataset_source": "https://github.com/minhaj-313/Amazon-Prime-Video-Dashboard-Using-PowerBi/blob/main/amazon_prime_titles.csv",
   "dataset_file": "Datasets/Amazon-Prime-Titles-Sample-03.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Amazon-Prime-Titles-Sample-03.png",
+  "Dashboard_file": "Dashboards/Amazon-Prime-Titles-Sample-03.png",
   "business_domain": "Entertainment & Media Streaming",
   "dashboard_components": [
     "KPI Cards (Total Titles, Total Ratings, Total Genres, Total Directors, Start Date, End Date)",
@@ -112,7 +112,7 @@
   "dataset_source": "https://github.com/BhaveshBhakta/Spotify-Analysis-Dashboard/blob/main/updated_file.csv",
   "dataset_file": "Datasets/Spotify-Analysis-Sample-04.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Spotify-Analysis-Sample-04.png",
+  "Dashboard_file": "Dashboards/Spotify-Analysis-Sample-04.png",
   "business_domain": "Music & Audio Streaming Analytics",
   "dashboard_components": [
     "KPI Cards (Avg Stream Per Year, Top VS Avg Percentage, Total Streams, Artist Count)",
@@ -149,7 +149,7 @@
   "dataset_source": "https://github.com/virajbhutada/US-healthcare-analysis-powerBI/blob/main/data/Healthcare_Dataset.xlsb",
   "dataset_file": "Datasets/Healthcare-Sample-05.xlsb",
   "dataset_format": "xlsb",
-  "screenshot_file": "Screenshots/Healthcare-Sample-05.png",
+  "Dashboard_file": "Dashboards/Healthcare-Sample-05.png",
   "business_domain": "Healthcare Finance & Operations",
   "dashboard_components": [
     "Top-level KPI Cards (Total Expenses, Insurance Revenue, Patient Revenue, Total Patients, Total Payment)",
@@ -183,7 +183,7 @@
   "dataset_source": "https://github.com/KalyanM45/Virat-Kohli-Score-Analytics/blob/main/Sources/Source.csv",
   "dataset_file": "Datasets/Virat-Kohli-Score-Analytics-Sample-06.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Virat-Kohli-Score-Analytics-Sample-06.jpg",
+  "Dashboard_file": "Dashboards/Virat-Kohli-Score-Analytics-Sample-06.jpg",
   "business_domain": "Sports Analytics (Cricket)",
   "dashboard_components": [
     "Year Range Slicer (2008 - 2022)",
@@ -218,7 +218,7 @@
   "dataset_source": "https://github.com/minhaj-313/Netflix-Movies-and-TV-Shows-Dashboard/blob/main/netflix_titles.csv",
   "dataset_file": "Datasets/Netflix-Movies-and-TV-Shows-Sample-07.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Netflix-Movies-and-TV-Shows-Sample-07.png",
+  "Dashboard_file": "Dashboards/Netflix-Movies-and-TV-Shows-Sample-07.png",
   "business_domain": "Entertainment & Media Streaming",
   "dashboard_components": [
     "KPI Cards (Total Titles, Total Ratings, Total Genres, Total Directors, Start Date, End Date)",
@@ -253,7 +253,7 @@
   "dataset_source": "https://github.com/Santoshsharm07/HR-Analytics-Dashboard--Power-Bi/blob/main/HR_Analytics.csv",
   "dataset_file": "Datasets/HR-Analytics-Dashboard-Sample-08.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/HR-Analytics-Dashboard-Sample-08.png",
+  "Dashboard_file": "Dashboards/HR-Analytics-Dashboard-Sample-08.png",
   "business_domain": "Human Resources",
   "dashboard_components": [
     "KPI Cards (Count of Employee, Attrition, Attrition Rate, Average Age, Average Income, Average Years)",
@@ -291,7 +291,7 @@
   "dataset_source": "https://github.com/MkSingh431/Uber-Data-Analytics-Dashboard/blob/main/Dataset/ncr_ride_bookings.csv",
   "dataset_file": "Datasets/Uber-Data-Analytics-Sample-09.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Uber-Data-Analytics-Sample-09.gif",
+  "Dashboard_file": "Dashboards/Uber-Data-Analytics-Sample-09.gif",
   "business_domain": "Transportation & Logistics",
   "dashboard_components": [
     "KPI Cards (Total Bookings, Success Rate, Total Booking Value, Avg Ride Distance, Avg Driver/Customer Ratings)",
@@ -328,7 +328,7 @@
   "dataset_source": "https://github.com/Dhiva-alt/Smart-Logistics-Delivery-Dashboard/blob/main/Food_Delivery_Times.csv",
   "dataset_file": "Datasets/Smart-Logistics-Delivery-Sample-10.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Smart-Logistics-Delivery-Sample-10.png",
+  "Dashboard_file": "Dashboards/Smart-Logistics-Delivery-Sample-10.png",
   "business_domain": "Logistics & Supply Chain Management",
   "dashboard_components": [
     "KPI Cards (Avg Delivery Time, Avg Courier Experience, Total Orders, Avg Distance)",
@@ -362,7 +362,7 @@
   "dataset_source": "https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/Databases/db_dump.xlsx",
   "dataset_file": "Datasets/Sales-Data-Analysis-Sample-11.xlsx",
   "dataset_format": "xlsx",
-  "screenshot_file": "Screenshots/Sales-Data-Analysis-Sample-11.png",
+  "Dashboard_file": "Dashboards/Sales-Data-Analysis-Sample-11.png",
   "business_domain": "Retail Sales & Finance",
   "dashboard_components": [
     "KPI Cards (Total Revenue, Total Profit)",
@@ -398,7 +398,7 @@
   "dataset_source": "https://github.com/chethanhn29/Diabetes-Prediction-Using-Machine-Learning/blob/main/health%20care%20diabetes.csv",
   "dataset_file": "Datasets/Diabetes-Prediction-Sample-12.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Diabetes-Prediction-Sample-12.jpg",
+  "Dashboard_file": "Dashboards/Diabetes-Prediction-Sample-12.jpg",
   "business_domain": "Healthcare & Medical Analytics",
   "dashboard_components": [
     "Pie Chart (Diabetic vs Non-Diabetic population distribution)",
@@ -431,7 +431,7 @@
   "dataset_source": "https://github.com/adiag321/Healthcare-Insurance-Claims-Analysis/blob/main/data/ABC%20Healthcare%20Company%20Claims%20Dataset.xlsx",
   "dataset_file": "Datasets/Healthcare-Insurance-Claims-Sample-13.xlsx",
   "dataset_format": "xlsx",
-  "screenshot_file": "Screenshots/Healthcare-Insurance-Claims-Sample-13.png",
+  "Dashboard_file": "Dashboards/Healthcare-Insurance-Claims-Sample-13.png",
   "business_domain": "Healthcare Finance & Insurance",
   "dashboard_components": [
     "Horizontal Bar Chart (Total Amount paid by Insurance by Provider Speciality)",
@@ -466,7 +466,7 @@
   "dataset_source": "https://github.com/MoMkhani/Zalando-Stock-Price-Dashboard-Tableau/blob/main/Data/Zalando%20Data.xlsx",
   "dataset_file": "Datasets/Zalando-Stock-Price-Sample-14.xlsx",
   "dataset_format": "xlsx",
-  "screenshot_file": "Screenshots/Zalando-Stock-Price-Sample-14.png",
+  "Dashboard_file": "Dashboards/Zalando-Stock-Price-Sample-14.png",
   "business_domain": "Stock Market & Financial Analytics",
   "dashboard_components": [
     "KPI Cards (Highest Price, Lowest Price)",
@@ -501,7 +501,7 @@
   "dataset_source": "https://github.com/Jayplect/nba-player-points-prediction/blob/main/Resources/NBA%20Predicted%20Data.csv",
   "dataset_file": "Datasets/Nba-Player-Points-Sample-15.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Nba-Player-Points-Sample-15.png",
+  "Dashboard_file": "Dashboards/Nba-Player-Points-Sample-15.png",
   "business_domain": "Sports & Performance Analytics",
   "dashboard_components": [
     "Interactive Player Selection Slicer",
@@ -538,7 +538,7 @@
   "dataset_source": "https://github.com/meet-afk/Tableau-Airbnb-Data-Analysis/blob/main/Tableau%20Full%20Project.xlsx",
   "dataset_file": "Datasets/Airbnb-Data-Analysis-Sample-16.xlsx",
   "dataset_format": "xlsx",
-  "screenshot_file": "Screenshots/Airbnb-Data-Analysis-Sample-16.png",
+  "Dashboard_file": "Dashboards/Airbnb-Data-Analysis-Sample-16.png",
   "business_domain": "Real Estate & Hospitality",
   "dashboard_components": [
     "Geographic Map (Price Per Zipcode with labels)",
@@ -572,7 +572,7 @@
   "dataset_source": "https://github.com/grahulp5/Profit-Analysis-Looker-Studio-Dashboard/blob/main/merged_data.csv",
   "dataset_file": "Datasets/Profit-Analysis-Sample-17.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Profit-Analysis-Sample-17.jpg",
+  "Dashboard_file": "Dashboards/Profit-Analysis-Sample-17.jpg",
   "business_domain": "Financial Planning & Analysis (FP&A)",
   "dashboard_components": [
     "Overall Profit Percentage KPI (-1.79%)",
@@ -608,7 +608,7 @@
   "dataset_source": "https://github.com/Jagger-01/Building-A-Dashboard-With-Google-Looker-Studio/tree/main/Module_1_Data_Collection",
   "dataset_file": "Datasets/Job-Postings-Emerging-Skills-Sample-18.xlsx, Datasets/Languages-Emerging-Skills-Sample-18.xlsx, Datasets/Scraped-Languages-Emerging-Skills-Sample-18.csv",
   "dataset_format": "xlsx, csv",
-  "screenshot_file": "Screenshots/Emerging-Skills-Analysis-Sample-18.jpg",
+  "Dashboard_file": "Dashboards/Emerging-Skills-Analysis-Sample-18.jpg",
   "business_domain": "Labor Market & Human Capital Analytics",
   "dashboard_components": [
     "Pie Chart (Respondent distribution by Gender: 93.5% Man, 6.5% Woman)",
@@ -640,7 +640,7 @@
   "dataset_source": "https://github.com/AllenLeiZhao/Bicycle_Accident_Analysis_in_Great_Britain_1979-2018/tree/main/data",
   "dataset_file": "Datasets/Bikers-Accidents-Sample-19.csv, Datasets/Accidents-Sample-19.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Accidents-Sample-19.jpg",
+  "Dashboard_file": "Dashboards/Accidents-Sample-19.jpg",
   "business_domain": "Public Safety & Transportation Analytics",
   "dashboard_components": [
     "KPI Scorecards (Record Count, Number of Casualties, Avg Casualties per Accident, Avg Vehicles per Accident)",
@@ -674,7 +674,7 @@
   "dataset_source": "https://github.com/ffatahillah7/Dashboard-Hospital-Using-Looker-Studio/blob/main/Data%20Pasien.xlsx",
   "dataset_file": "Datasets/Hospital_Analysis_Sample-20.xlsx",
   "dataset_format": "xlsx",
-  "screenshot_file": "Screenshots/Hospital_Analysis_Sample-20.jpg",
+  "Dashboard_file": "Dashboards/Hospital_Analysis_Sample-20.jpg",
   "business_domain": "Healthcare Management",
   "dashboard_components": [
     "KPI Scorecards (Total Patients, Pavilion, Alamanda, Rosalia counts)",
@@ -710,7 +710,7 @@
   "dataset_source": "https://drive.google.com/file/d/1VnaXHfSkUtkCWYCja8Xs5lUvofgKuyN-/view?usp=sharing",
   "dataset_file": "Datasets/Slack-Survey-Sample-21.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Slack-Survey-Sample-21.jpg",
+  "Dashboard_file": "Dashboards/Slack-Survey-Sample-21.jpg",
   "business_domain": "Technology & Developer Insights",
   "dashboard_components": [
     "Horizontal Bar Chart (Top 10 Desired Programming Languages)",
@@ -744,7 +744,7 @@
   "dataset_source": "https://github.com/mangeshtate/Sales-Performance-Dashboard-and-Scorecard/tree/main/Dataset",
   "dataset_file": "Datasets/Sales-Performance-Sample-22.xlsx",
   "dataset_format": "xlsx",
-  "screenshot_file": "Screenshots/Sales-Performance-Sample-22.png",
+  "Dashboard_file": "Dashboards/Sales-Performance-Sample-22.png",
   "business_domain": "Sales Performance & Goal Management",
   "dashboard_components": [
     "Status Summary Ribbon (Overdue, Behind, At risk, On track, Not started, Completed counters)",
@@ -780,7 +780,7 @@
   "dataset_source": "https://github.com/pramodpatil0520/customer-loyalty-dashboard/tree/main/Dataset",
   "dataset_file": "Datasets/Customer-Loyalty-Sample-23.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Customer-Loyalty-Sample-23.png",
+  "Dashboard_file": "Dashboards/Customer-Loyalty-Sample-23.png",
   "business_domain": "Retail & Customer Loyalty Analytics",
   "dashboard_components": [
     "Geographic Map (Revenue by Region and Quantity Sold by Lat/Long coordinates)",
@@ -814,7 +814,7 @@
   "dataset_source": "https://www.kaggle.com/datasets/mchirico/stack-overflow-developer-survey-results-2019",
   "dataset_file": "Datasets/Developer-Survey-Sample-24.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Developer-Survey-Sample-24.jpg",
+  "Dashboard_file": "Dashboards/Developer-Survey-Sample-24.jpg",
   "business_domain": "Technology Trends & Developer Insights",
   "dashboard_components": [
     "Horizontal Bar Chart (Top 10 Languages worked with)",
@@ -848,7 +848,7 @@
   "dataset_source": "https://github.com/Demon-2-Angel/Post-Partum-Analysis/blob/main/post%20partum%20data%20set.csv",
   "dataset_file": "Datasets/Post-Partum-Analysis-Sample-25.csv",
   "dataset_format": "csv",
-  "screenshot_file": "Screenshots/Post-Partum-Analysis-Sample-25.png",
+  "Dashboard_file": "Dashboards/Post-Partum-Analysis-Sample-25.png",
   "business_domain": "Healthcare & Mental Health",
   "dashboard_components": [
     "Categorical Matrix Chart (Analyzing Sleeping Problems vs Concentration issues)",
