@@ -1,0 +1,876 @@
+[
+  {
+    "id": 1,
+    "platform": "Power BI",
+    "dashboard_name": "Sales-and-Marketing-Sample-01.png",
+    "dashboard_source": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualizations-overview",
+    "dataset_name": "Sales-and-Marketing-Sample-01.xlsx",
+    "dataset_source": "https://learn.microsoft.com/en-us/power-bi/create-reports/sample-sales-and-marketing",
+    "dataset_file": "Datasets/Sales-and-Marketing-Sample-01.xlsx",
+    "dataset_format": "xlsx",
+    "screenshot_file": "Screenshots/Sales-and-Marketing-Sample-01.png",
+    "business_domain": "Finance & Sales",
+    "dashboard_components": [
+      "Horizontal Bar Chart (Sales by Segment)",
+      "Stacked Bar Chart (Sales by Segment and Year)",
+      "Clustered Bar Chart (Sales by Segment and Year)",
+      "100% Stacked Bar Chart (Sales by Segment and Year)",
+      "Small Multiples / Trellis Chart (Sales by Segment and Country)",
+      "Interactive Sidebar Navigation (Visual type selection)"
+    ],
+    "dataset_preparation": [
+      "Date fields parsed into Year, Month Name, and Month Number",
+      "Financial metrics calculated (Gross Sales, Discounts, Sales, COGS, Profit)",
+      "Categorical grouping by Segment, Country, Product, and Discount Band",
+      "Currency and unit formatting applied to numeric columns"
+    ],
+    "possible_ml_use_cases": [
+      "Sales forecasting by segment and geography",
+      "Profit margin prediction based on product and discount band",
+      "Market trend analysis across different fiscal years",
+      "Anomaly detection in manufacturing vs. sale price ratios"
+    ]
+  },
+  
+  {
+  "id": 2,
+  "platform": "Power BI",
+  "dashboard_name": "Sales-Sample-02.png",
+  "dashboard_source": "https://github.com/yashsdoshi/Sales_report_using_PowerBi/blob/main/README.md",
+  "dataset_name": "Order-Sales-Sample-02.csv & Details-Sales-Sample-02.csv",
+  "dataset_source": "https://github.com/yashsdoshi/Sales_report_using_PowerBi/tree/main/Datasets",
+  "dataset_file": "Datasets/Order-Sales-Sample-02.csv, Datasets/Details-Sales-Sample-02.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Sales-Sample-02.png",
+  "business_domain": "E-commerce & Retail Sales",
+  "dashboard_components": [
+    "KPI Cards (Sum of Quantity, Sum of Profit, Sum of Amount)",
+    "Quarterly Slicers (Qtr 1, Qtr 2, Qtr 3, Qtr 4)",
+    "Horizontal Bar Charts (Sum of Profit by Sub-Category)",
+    "Donut Chart (Sum of Quantity by PaymentMode)",
+    "Donut Chart (Sum of Quantity and Sum of Amount by Category)",
+    "Column Chart (Sum of Amount by CustomerName)",
+    "Line Chart (Sum of Profit by Month)"
+  ],
+  "dataset_preparation": [
+    "Merged datasets on 'Order ID' primary/foreign key",
+    "Converted 'Order Date' to datetime format for monthly and quarterly analysis",
+    "Aggregated 'Amount', 'Profit', and 'Quantity' metrics",
+    "Categorized products by 'Category' and 'Sub-Category'",
+    "Mapped geographic data (State, City) for potential spatial analysis"
+  ],
+  "possible_ml_use_cases": [
+    "Time-series forecasting of monthly profit and sales",
+    "Customer segmentation and identifying high-value customers",
+    "Payment method preference prediction",
+    "Predictive maintenance for low-profit sub-categories",
+    "Anomaly detection for months showing negative profit"
+  ]
+},
+
+{
+  "id": 3,
+  "platform": "Power BI",
+  "dashboard_name": "Amazon-Prime-Titles-Sample-03.png",
+  "dashboard_source": "https://github.com/minhaj-313/Amazon-Prime-Video-Dashboard-Using-PowerBi/blob/main/Amazon%20Prime%20Video%20Dashboard%20by%20Shaikh%20Minhaj.png",
+  "dataset_name": "Amazon-Prime-Titles-Sample-03.csv",
+  "dataset_source": "https://github.com/minhaj-313/Amazon-Prime-Video-Dashboard-Using-PowerBi/blob/main/amazon_prime_titles.csv",
+  "dataset_file": "Datasets/Amazon-Prime-Titles-Sample-03.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Amazon-Prime-Titles-Sample-03.png",
+  "business_domain": "Entertainment & Media Streaming",
+  "dashboard_components": [
+    "KPI Cards (Total Titles, Total Ratings, Total Genres, Total Directors, Start Date, End Date)",
+    "Map Visual (Total Shows by Country)",
+    "Area Chart (Total Shows by Release Year split by Movie and TV Show)",
+    "Horizontal Bar Chart (Ratings by Total Shows)",
+    "Donut Chart (Movies vs TV Shows distribution)",
+    "Horizontal Bar Chart (Genres by Total Shows)"
+  ],
+  "dataset_preparation": [
+    "Cleaned missing values in 'rating' and 'director' columns",
+    "Parsed 'listed_in' and 'country' strings to allow for multi-category filtering",
+    "Extracted min and max 'release_year' for date range KPIs",
+    "Converted 'date_added' to standard date format",
+    "Calculated distinct counts for Titles, Genres, and Directors"
+  ],
+  "possible_ml_use_cases": [
+    "Recommendation engine based on genre and director associations",
+    "Content trend forecasting by release year",
+    "Sentiment analysis or topic modeling on show descriptions",
+    "Predictive analysis of show ratings based on duration and category",
+    "Geographic content gap analysis"
+  ]
+},
+
+{
+  "id": 4,
+  "platform": "Power BI",
+  "dashboard_name": "Spotify-Analysis-Sample-04.png",
+  "dashboard_source": "https://github.com/BhaveshBhakta/Spotify-Analysis-Dashboard/blob/main/Spotify%20Dashboard.pbix",
+  "dataset_name": "Spotify-Analysis-Sample-04.csv",
+  "dataset_source": "https://github.com/BhaveshBhakta/Spotify-Analysis-Dashboard/blob/main/updated_file.csv",
+  "dataset_file": "Datasets/Spotify-Analysis-Sample-04.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Spotify-Analysis-Sample-04.png",
+  "business_domain": "Music & Audio Streaming Analytics",
+  "dashboard_components": [
+    "KPI Cards (Avg Stream Per Year, Top VS Avg Percentage, Total Streams, Artist Count)",
+    "Audio Feature Metrics (Acousticness, Danceability, Liveness, Valence, Speechiness sums)",
+    "Gauge Chart (Energy %)",
+    "Time-Series Analysis (Count of Track Name by Date/Month line chart)",
+    "Activity Heatmap (Spotify Track Usage by Month and Weekday)",
+    "Horizontal Bar Chart (Top Tracks by Sum of Spotify Streams)",
+    "Interactive Slicers (Artist, Track, Release Date, Year buttons)",
+    "Summary Table (Monthly Track count and Stream volume)"
+  ],
+  "dataset_preparation": [
+    "Combined 'released_year', 'released_month', and 'released_day' into a single Date field",
+    "Cleaned and parsed 'artist(s)_name' to handle collaborations",
+    "Calculated 'Top vs Avg' comparison metric using DAX",
+    "Standardized audio feature percentages for visualization in cards and gauges",
+    "Aggregated stream counts by time periods and categorical dimensions"
+  ],
+  "possible_ml_use_cases": [
+    "Predictive modeling of track streams based on audio features (BPM, Energy, etc.)",
+    "Hit song classification using danceability, valence, and acousticness metrics",
+    "Time-series forecasting for streaming trends and seasonal patterns",
+    "Clustering tracks into mood-based segments for playlist generation",
+    "Regression analysis to determine the impact of being in charts vs playlists on total streams"
+  ]
+},
+
+{
+  "id": 5,
+  "platform": "Power BI",
+  "dashboard_name": "Healthcare-Sample-05.png",
+  "dashboard_source": "https://github.com/virajbhutada/US-healthcare-analysis-powerBI/blob/main/README.md",
+  "dataset_name": "Healthcare-Sample-05.xlsb",
+  "dataset_source": "https://github.com/virajbhutada/US-healthcare-analysis-powerBI/blob/main/data/Healthcare_Dataset.xlsb",
+  "dataset_file": "Datasets/Healthcare-Sample-05.xlsb",
+  "dataset_format": "xlsb",
+  "screenshot_file": "Screenshots/Healthcare-Sample-05.png",
+  "business_domain": "Healthcare Finance & Operations",
+  "dashboard_components": [
+    "Top-level KPI Cards (Total Expenses, Insurance Revenue, Patient Revenue, Total Patients, Total Payment)",
+    "Area Charts for time-series analysis (Monthly Expenses Trends, Patient Growth Over Time)",
+    "Column and Bar Charts (CPT Units Monthly Distribution, Payer-wise CPT Units)",
+    "Performance Target Cards with Variance Analysis (Monthly Revenue vs Goals, Procedure Volume vs Goals)",
+    "Efficiency Metrics (Optimized Quarterly Expenditure, Deficit Reduction Efficiency)",
+    "Navigation/Executive Summary Sidebar"
+  ],
+  "dataset_preparation": [
+    "Date of posting parsed into monthly and yearly hierarchies to track trends from 2019-2020",
+    "Financial aggregation of Expenses, Insurance_Payment, and Patient_Payment columns",
+    "Categorization of CPT Units by Payer (Medicare, Commercial, Medicaid, etc.)",
+    "Calculation of 'Goal' vs 'Actual' variances using DAX measures",
+    "Standardization of Provider and Hospital names for consistent filtering"
+  ],
+  "possible_ml_use_cases": [
+    "Healthcare expenditure forecasting for budget planning",
+    "Predictive modeling of patient growth and procedure volume",
+    "Payer mix optimization and revenue leakage detection",
+    "Provider performance benchmarking and anomaly detection in billing",
+    "Automated identification of factors contributing to deficit reduction"
+  ]
+},
+{
+  "id": 6,
+  "platform": "Power BI",
+  "dashboard_name": "Virat-Kohli-Score-Analytics-Sample-06.jpg",
+  "dashboard_source": "https://github.com/KalyanM45/Virat-Kohli-Score-Analytics/blob/main/Virat%20Kohli%20Score%20DashBoard_pages-to-jpg-0001.jpg",
+  "dataset_name": "Virat-Kohli-Score-Analytics-Sample-06.csv",
+  "dataset_source": "https://github.com/KalyanM45/Virat-Kohli-Score-Analytics/blob/main/Sources/Source.csv",
+  "dataset_file": "Datasets/Virat-Kohli-Score-Analytics-Sample-06.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Virat-Kohli-Score-Analytics-Sample-06.jpg",
+  "business_domain": "Sports Analytics (Cricket)",
+  "dashboard_components": [
+    "Year Range Slicer (2008 - 2022)",
+    "KPI Cards (Matches, Runs, Highest Score, 50s, 100s, Batting Average)",
+    "Column Chart (Runs by Opponent)",
+    "Donut Chart (Total Matches per Opponent)",
+    "Line Chart (Yearly Runs Trend)",
+    "Custom Background with Athlete Imagery"
+  ],
+  "dataset_preparation": [
+    "Standardized date formatting from string to date objects",
+    "Extracted Year from date for time-series trend analysis",
+    "Calculated running totals and aggregate match counts",
+    "Derived batting average metric (Total Runs / Matches)",
+    "Categorized scores into 50s and 100s using conditional logic"
+  ],
+  "possible_ml_use_cases": [
+    "Predicting future performance against specific opponents",
+    "Identifying career peak phases through trend analysis",
+    "Anomaly detection in scoring patterns (identifying slumps or hot streaks)",
+    "Grouping opponents by difficulty based on historical batting average",
+    "Forecasting total career runs based on current growth trajectory"
+  ]
+},
+
+{
+  "id": 7,
+  "platform": "Power BI",
+  "dashboard_name": "Netflix-Movies-and-TV-Shows-Sample-07.png",
+  "dashboard_source": "https://github.com/minhaj-313/Netflix-Movies-and-TV-Shows-Dashboard/blob/main/Netflix%20Movies%20and%20TV%20Shows%20Dashboard%20-%20by%20Shaikh%20Minhaj.png",
+  "dataset_name": "Netflix-Movies-and-TV-Shows-Sample-07.csv",
+  "dataset_source": "https://github.com/minhaj-313/Netflix-Movies-and-TV-Shows-Dashboard/blob/main/netflix_titles.csv",
+  "dataset_file": "Datasets/Netflix-Movies-and-TV-Shows-Sample-07.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Netflix-Movies-and-TV-Shows-Sample-07.png",
+  "business_domain": "Entertainment & Media Streaming",
+  "dashboard_components": [
+    "KPI Cards (Total Titles, Total Ratings, Total Genres, Total Directors, Start Date, End Date)",
+    "Stacked Area Chart (Total Shows by Release Year split by Movie and TV Show)",
+    "Horizontal Bar Chart (Genres by Total Shows)",
+    "Horizontal Bar Chart (Rating by Total Shows)",
+    "Donut Chart (Movies and TV Shows distribution percentage)",
+    "Map Visualization (Total Shows by Country)"
+  ],
+  "dataset_preparation": [
+    "Cleaned missing values in 'director', 'cast', and 'rating' columns",
+    "Standardized content types into 'Movie' and 'TV Show' categories",
+    "Parsed and split multi-valued strings in 'listed_in' (genres) and 'country' for granular analysis",
+    "Converted 'date_added' string to standard date format",
+    "Extracted release year range (1925-2021) for KPI metrics"
+  ],
+  "possible_ml_use_cases": [
+    "Content recommendation engine based on genre and director metadata",
+    "Time-series forecasting for content production trends",
+    "Sentiment analysis and topic modeling on show descriptions",
+    "Classification of content based on rating and duration patterns",
+    "Geographic market gap analysis for content localization"
+  ]
+},
+
+{
+  "id": 8,
+  "platform": "Power BI",
+  "dashboard_name": "HR-Analytics-Dashboard-Sample-08.png",
+  "dashboard_source": "https://github.com/Santoshsharm07/HR-Analytics-Dashboard--Power-Bi/blob/main/README.md",
+  "dataset_name": "HR-Analytics-Dashboard-Sample-08.csv",
+  "dataset_source": "https://github.com/Santoshsharm07/HR-Analytics-Dashboard--Power-Bi/blob/main/HR_Analytics.csv",
+  "dataset_file": "Datasets/HR-Analytics-Dashboard-Sample-08.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/HR-Analytics-Dashboard-Sample-08.png",
+  "business_domain": "Human Resources",
+  "dashboard_components": [
+    "KPI Cards (Count of Employee, Attrition, Attrition Rate, Average Age, Average Income, Average Years)",
+    "Donut Chart (Attrition by Education Field)",
+    "Column Chart (Attrition by Age Group)",
+    "Horizontal Bar Chart (Attrition by Salary Slab)",
+    "Area Chart (Attrition by Years at Company)",
+    "Horizontal Bar Chart (Attrition by Job Role)",
+    "Matrix Table (Job Role performance/satisfaction breakdown)",
+    "Slicers (Department: Human Resources, Research & Development, Sales)",
+    "Bivariate Tile (Attrition by Gender)"
+  ],
+  "dataset_preparation": [
+    "Categorized numeric Age into 'AgeGroup' bins (e.g., 18-25, 26-35)",
+    "Binned MonthlyIncome into 'SalarySlab' categories (e.g., Upto 5k, 5k-10k)",
+    "Calculated Attrition Rate measure using (Attrition Count / Total Employee Count)",
+    "Standardized text values for EducationField and JobRole",
+    "Cleaned and handled survey-based metrics like EnvironmentSatisfaction and JobInvolvement"
+  ],
+  "possible_ml_use_cases": [
+    "Predictive employee attrition modeling",
+    "Salary benchmarking and hike recommendation engine",
+    "Clustering analysis for employee satisfaction segments",
+    "Identifying key factors driving turnover using feature importance",
+    "Forecasting future workforce requirements and promotion cycles"
+  ]
+},
+
+{
+  "id": 9,
+  "platform": "Power BI",
+  "dashboard_name": "Uber-Data-Analytics-Sample-09.gif",
+  "dashboard_source": "https://github.com/MkSingh431/Uber-Data-Analytics-Dashboard/blob/main/Project%20Showcase/Dasboard.gif",
+  "dataset_name": "Uber-Data-Analytics-Sample-09.csv",
+  "dataset_source": "https://github.com/MkSingh431/Uber-Data-Analytics-Dashboard/blob/main/Dataset/ncr_ride_bookings.csv",
+  "dataset_file": "Datasets/Uber-Data-Analytics-Sample-09.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Uber-Data-Analytics-Sample-09.gif",
+  "business_domain": "Transportation & Logistics",
+  "dashboard_components": [
+    "KPI Cards (Total Bookings, Success Rate, Total Booking Value, Avg Ride Distance, Avg Driver/Customer Ratings)",
+    "Donut Chart (Booking Status distribution: Success, Cancelled by Customer, Cancelled by Driver, No Driver Found)",
+    "Horizontal Bar Chart (Booking Value by Vehicle Type)",
+    "Line Chart (Ride Volume Trends by Date/Time)",
+    "Bar Chart (Reasons for Cancellation by Customers vs. Drivers)",
+    "Vehicle Type performance breakdown (eBike, UberGo, Premier, etc.)",
+    "Heatmap/Grid (Ride volume by Pickup and Drop Locations)",
+    "Interactive Slicers (Date Range, Booking Status, Vehicle Type)"
+  ],
+  "dataset_preparation": [
+    "Combined 'Date' and 'Time' fields for temporal analysis",
+    "Handled null values in cancellation reason fields based on 'Booking Status'",
+    "Calculated 'Success Rate' percentage using conditional DAX measures",
+    "Grouped 'Pickup' and 'Drop' locations for route popularity analysis",
+    "Calculated Average VTAT (Vehicle Turnaround Time) and CTAT (Customer Turnaround Time)"
+  ],
+  "possible_ml_use_cases": [
+    "Ride demand forecasting based on time, location, and vehicle type",
+    "Predictive modeling for ride cancellations (Customer vs. Driver behavior)",
+    "Optimization of driver allocation to minimize 'No Driver Found' status",
+    "Sentiment and rating prediction based on ride distance and turnaround times",
+    "Dynamic pricing strategy based on Booking Value and route density"
+  ]
+},
+
+{
+  "id": 10,
+  "platform": "Power BI",
+  "dashboard_name": "Smart-Logistics-Delivery-Sample-10.png",
+  "dashboard_source": "https://github.com/Dhiva-alt/Smart-Logistics-Delivery-Dashboard/blob/main/README.md",
+  "dataset_name": "Smart-Logistics-Delivery-Sample-10.csv",
+  "dataset_source": "https://github.com/Dhiva-alt/Smart-Logistics-Delivery-Dashboard/blob/main/Food_Delivery_Times.csv",
+  "dataset_file": "Datasets/Smart-Logistics-Delivery-Sample-10.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Smart-Logistics-Delivery-Sample-10.png",
+  "business_domain": "Logistics & Supply Chain Management",
+  "dashboard_components": [
+    "KPI Cards (Avg Delivery Time, Avg Courier Experience, Total Orders, Avg Distance)",
+    "Horizontal Bar Chart (Avg Delivery Time by Vehicle Type: Car, Bike, Scooter)",
+    "Pie Chart (Orders by Weather conditions: Clear, Rainy, Foggy, Snowy, Windy)",
+    "Line Chart (Delivery Time trends by Time of Day: Morning, Afternoon, Evening, Night)",
+    "Expandable Filter Pane for granular data drilling"
+  ],
+  "dataset_preparation": [
+    "Aggregated delivery metrics by categorical dimensions like Vehicle Type and Time of Day",
+    "Calculated average values for key performance indicators (Distance, Time, Experience)",
+    "Cleaned and categorized Weather and Traffic Level data",
+    "Structured data to support time-series analysis across various segments of the day",
+    "Standardized unit measurements for distance (km) and time (mins)"
+  ],
+  "possible_ml_use_cases": [
+    "Predictive delivery time estimation using regression models",
+    "Impact analysis of weather and traffic on logistics efficiency",
+    "Demand forecasting based on historical 'Time of Day' and 'Weather' patterns",
+    "Courier performance benchmarking based on experience and vehicle type",
+    "Optimization of vehicle assignment for specific weather or traffic conditions"
+  ]
+},
+
+{
+  "id": 11,
+  "platform": "Tableau",
+  "dashboard_name": "Sales-Data-Analysis-Sample-11.png",
+  "dashboard_source": "https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/Sales%20Insights%20-%20Data%20Analysis%20Project.pptx",
+  "dataset_name": "Sales-Data-Analysis-Sample-11.xlsx",
+  "dataset_source": "https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/Databases/db_dump.xlsx",
+  "dataset_file": "Datasets/Sales-Data-Analysis-Sample-11.xlsx",
+  "dataset_format": "xlsx",
+  "screenshot_file": "Screenshots/Sales-Data-Analysis-Sample-11.png",
+  "business_domain": "Retail Sales & Finance",
+  "dashboard_components": [
+    "KPI Cards (Total Revenue, Total Profit)",
+    "Horizontal Bar Chart (Revenue by Markets)",
+    "Horizontal Bar Chart (Profit Margin by Markets with negative value highlighting)",
+    "Pie Chart (Sales Channel distribution: E-Commerce vs Brick & Mortar)",
+    "Dual-Axis Line Chart (Normalized Revenue Amount vs. Profit Margin % over Years)",
+    "Detailed Performance Table (Customer Name, Amount, Margin %, Qty, Profit)",
+    "Timeline Slicer (Yearly and Monthly filters)"
+  ],
+  "dataset_preparation": [
+    "Currency normalization (handling multiple currencies to a standard 'Normalized Amount')",
+    "Calculated fields for Profit Margin % based on Profit and Sales Amount",
+    "Data cleaning to handle negative profit values for market-wise analysis",
+    "Aggregation of sales quantities and amounts by market and customer codes",
+    "Date parsing to enable Year/Month level filtering and trend analysis"
+  ],
+  "possible_ml_use_cases": [
+    "Revenue and profit margin forecasting for future fiscal years",
+    "Customer lifetime value (CLV) analysis and segmentation",
+    "Market expansion strategy based on high-margin geographic regions",
+    "Churn prediction for B2B customers based on declining sales quantity",
+    "Price optimization models to improve profit margins in underperforming markets"
+  ]
+},
+
+{
+  "id": 12,
+  "platform": "Tableau",
+  "dashboard_name": "Diabetes-Prediction-Sample-12.png",
+  "dashboard_source": "https://github.com/chethanhn29/Diabetes-Prediction-Using-Machine-Learning/blob/main/Tabluea%20Dashboard.pdf",
+  "dataset_name": "Diabetes-Prediction-Sample-12.csv",
+  "dataset_source": "https://github.com/chethanhn29/Diabetes-Prediction-Using-Machine-Learning/blob/main/health%20care%20diabetes.csv",
+  "dataset_file": "Datasets/Diabetes-Prediction-Sample-12.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Diabetes-Prediction-Sample-12.jpg",
+  "business_domain": "Healthcare & Medical Analytics",
+  "dashboard_components": [
+    "Pie Chart (Diabetic vs Non-Diabetic population distribution)",
+    "Multi-pane Scatter Chart (BMI vs Glucose, Insulin, Pregnancies, Diabetes Pedigree, Blood Pressure, and Skin Thickness)",
+    "Percentage labels for binary outcome distribution",
+    "F1 Index analysis for individual record distribution"
+  ],
+  "dataset_preparation": [
+    "Transformation of 'Outcome' numeric field (0/1) into categorical labels (Diabetic/Non-Diabetic)",
+    "Handling of missing or zero values in clinical columns like Insulin and Glucose",
+    "Calculated percentage of total for the population distribution chart",
+    "Data pivoting or multi-axis alignment for side-by-side scatter plot comparisons",
+    "Filtering or grouping based on biometric thresholds (e.g., BMI ranges)"
+  ],
+  "possible_ml_use_cases": [
+    "Predictive modeling for diabetes onset (Classification)",
+    "Correlation analysis between BMI and metabolic markers",
+    "Risk factor identification through multi-variable scatter analysis",
+    "Anomaly detection for clinical outliers (e.g., extremely high Insulin or Glucose levels)",
+    "Feature importance ranking for diagnostic variables"
+  ]
+},
+
+{
+  "id": 13,
+  "platform": "Tableau",
+  "dashboard_name": "Healthcare-Insurance-Claims-Sample-13.png",
+  "dashboard_source": "https://github.com/adiag321/Healthcare-Insurance-Claims-Analysis/blob/main/Images/tableau_dashboard.png",
+  "dataset_name": "Healthcare-Insurance-Claims-Sample-13.csv",
+  "dataset_source": "https://github.com/adiag321/Healthcare-Insurance-Claims-Analysis/blob/main/data/ABC%20Healthcare%20Company%20Claims%20Dataset.xlsx",
+  "dataset_file": "Datasets/Healthcare-Insurance-Claims-Sample-13.xlsx",
+  "dataset_format": "xlsx",
+  "screenshot_file": "Screenshots/Healthcare-Insurance-Claims-Sample-13.png",
+  "business_domain": "Healthcare Finance & Insurance",
+  "dashboard_components": [
+    "Horizontal Bar Chart (Total Amount paid by Insurance by Provider Speciality)",
+    "Scatter Plot with Trend Line (Total amount paid by insurance V/s Patient Copayment)",
+    "Dual Line Chart (Time-series analysis for Commercial vs Medicare Product Lines)",
+    "Bubble/Dot Plot (Quarterly Analysis of Amount spent by State: CT, MA, NH, RI)",
+    "Interactive Tooltips (Detailed claim and payment metrics on hover)",
+    "Trend line analysis for cost correlation"
+  ],
+  "dataset_preparation": [
+    "Date parsing of 'DATE_OF_SERVICE' into Month/Year and Quarter hierarchies",
+    "Aggregation of 'TOTAL_PAID_BY_INSURANCE' across Provider Specialties and States",
+    "Filtering and grouping of Product Lines (Commercial vs Medicare)",
+    "Correlation calculation between Insurance Payment and Patient Copayment",
+    "Mapping of Patient State abbreviations for geographic/categorical analysis"
+  ],
+  "possible_ml_use_cases": [
+    "Insurance claim amount prediction based on CPT codes and provider specialty",
+    "Anomaly detection to identify potentially fraudulent or outlier insurance claims",
+    "Time-series forecasting for future insurance payout liabilities",
+    "Regression analysis to determine the impact of copayments on total insurance spend",
+    "Provider profiling and cost-efficiency benchmarking"
+  ]
+},
+
+{
+  "id": 14,
+  "platform": "Tableau",
+  "dashboard_name": "Zalando-Stock-Price-Sample-14.png",
+  "dashboard_source": "https://github.com/MoMkhani/Zalando-Stock-Price-Dashboard-Tableau/blob/main/Dashboard.png",
+  "dataset_name": "Zalando-Stock-Price-Sample-14.xlsx",
+  "dataset_source": "https://github.com/MoMkhani/Zalando-Stock-Price-Dashboard-Tableau/blob/main/Data/Zalando%20Data.xlsx",
+  "dataset_file": "Datasets/Zalando-Stock-Price-Sample-14.xlsx",
+  "dataset_format": "xlsx",
+  "screenshot_file": "Screenshots/Zalando-Stock-Price-Sample-14.png",
+  "business_domain": "Stock Market & Financial Analytics",
+  "dashboard_components": [
+    "KPI Cards (Highest Price, Lowest Price)",
+    "Summary Cards (Last 3 Months Average Close Price)",
+    "Line Chart with Data Labels (Daily Close Price trends)",
+    "Dual Line Chart (Daily High vs Low price comparison)",
+    "Area Chart (Volume Trading over time)",
+    "Line Chart with Data Labels (Daily Percentage Difference between Open and Close)"
+  ],
+  "dataset_preparation": [
+    "Calculated Highest and Lowest price metrics for the specified date range",
+    "Derived daily percentage variance between Open and Close stock prices",
+    "Aggregated average closing prices by month for the 'Last 3 Months' summary",
+    "Time-series parsing of Date field to daily and monthly levels",
+    "Currency formatting applied to numeric values (€)"
+  ],
+  "possible_ml_use_cases": [
+    "Stock price trend forecasting using time-series models (e.g., ARIMA or LSTM)",
+    "Volatility prediction based on High-Low and Open-Close spreads",
+    "Anomaly detection for unusual trading volume spikes",
+    "Regression analysis to determine correlation between trading volume and price volatility",
+    "Automated trading signal generation based on price momentum indicators"
+  ]
+},
+
+{
+  "id": 15,
+  "platform": "Tableau",
+  "dashboard_name": "Nba-Player-Points-Sample-15.png",
+  "dashboard_source": "https://github.com/Jayplect/nba-player-points-prediction/blob/main/README.md",
+  "dataset_name": "Nba-Player-Points-Sample-15.csv",
+  "dataset_source": "https://github.com/Jayplect/nba-player-points-prediction/blob/main/Resources/NBA%20Predicted%20Data.csv",
+  "dataset_file": "Datasets/Nba-Player-Points-Sample-15.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Nba-Player-Points-Sample-15.png",
+  "business_domain": "Sports & Performance Analytics",
+  "dashboard_components": [
+    "Interactive Player Selection Slicer",
+    "KPI Cards (Age, Best Rank, Average Points)",
+    "Participated Teams Logo Visualization",
+    "Spatial Court Visualization (Player Position - Shooting Guard)",
+    "Curved Trend/Lollipop Chart (Historical Points vs 2023-2024 Prediction)",
+    "Side-by-Side Comparison Bars (2022 vs 2023 for 3P%, 2P%, FG%, MPG, Steals, and Blocks)",
+    "Player Headshot/Imagery Integration",
+    "Tabbed Navigation (Player Stats & Prediction, Leaderboard, Player Comparison)"
+  ],
+  "dataset_preparation": [
+    "Merged historical seasonal datasets (2021-2022 and 2022-2023) into a wide format",
+    "Integrated machine learning results (2023-2024 Predicted Points) into the primary dataset",
+    "Standardized naming conventions for teams and positions across different seasons",
+    "Calculated performance rankings (Best Rank) and career average points",
+    "Cleaned and handled missing values in percentage columns to avoid calculation errors"
+  ],
+  "possible_ml_use_cases": [
+    "Regression modeling for future player point projections",
+    "Player career trajectory forecasting and aging curve analysis",
+    "Similarity matching for scouting (finding comparable historical players)",
+    "Draft pick value assessment based on predicted performance metrics",
+    "Position-based efficiency optimization for roster construction"
+  ]
+},
+
+{
+  "id": 16,
+  "platform": "Tableau",
+  "dashboard_name": "Airbnb-Data-Analysis-Sample-16.png",
+  "dashboard_source": "https://github.com/meet-afk/Tableau-Airbnb-Data-Analysis/blob/main/README.md",
+  "dataset_name": "Airbnb-Data-Analysis-Sample-16.xlsx",
+  "dataset_source": "https://github.com/meet-afk/Tableau-Airbnb-Data-Analysis/blob/main/Tableau%20Full%20Project.xlsx",
+  "dataset_file": "Datasets/Airbnb-Data-Analysis-Sample-16.xlsx",
+  "dataset_format": "xlsx",
+  "screenshot_file": "Screenshots/Airbnb-Data-Analysis-Sample-16.png",
+  "business_domain": "Real Estate & Hospitality",
+  "dashboard_components": [
+    "Geographic Map (Price Per Zipcode with labels)",
+    "Bar Chart (Price by Zipcode with color-coded legend)",
+    "Line Chart (Revenue for Year showing weekly price trends)",
+    "Bar Chart (Average Price per Bedroom for counts 1-6)",
+    "Interactive Filter (Distinct Count of Bedroom Listings)"
+  ],
+  "dataset_preparation": [
+    "Cleaned price field by removing currency symbols and converting to numeric values",
+    "Mapped zipcodes to geographic coordinates for spatial visualization",
+    "Aggregated listing data to calculate distinct counts of properties",
+    "Created date hierarchies to enable 'Week of Date' trend analysis",
+    "Calculated average price metrics grouped by bedroom count and location"
+  ],
+  "possible_ml_use_cases": [
+    "Predictive pricing models for new Airbnb listings",
+    "Seasonal demand and revenue forecasting",
+    "Market segmentation analysis based on zipcode performance",
+    "Identifying high-value investment locations using price-per-bedroom trends",
+    "Anomaly detection for underpriced or overpriced rental listings"
+  ]
+},
+
+{
+  "id": 17,
+  "platform": "Google Looker Studio",
+  "dashboard_name": "Profit-Analysis-Sample-17.jpg",
+  "dashboard_source": "https://github.com/grahulp5/Profit-Analysis-Looker-Studio-Dashboard/blob/main/Profit_Analysis.pdf",
+  "dataset_name": "Profit-Analysis-Sample-17.csv",
+  "dataset_source": "https://github.com/grahulp5/Profit-Analysis-Looker-Studio-Dashboard/blob/main/merged_data.csv",
+  "dataset_file": "Datasets/Profit-Analysis-Sample-17.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Profit-Analysis-Sample-17.jpg",
+  "business_domain": "Financial Planning & Analysis (FP&A)",
+  "dashboard_components": [
+    "Overall Profit Percentage KPI (-1.79%)",
+    "KPI Cards (Forecast, Budget, Net Profit)",
+    "Time-Series Line Chart (Budget VS Forecast comparison)",
+    "Donut Chart (Top 5 Cost Elements by NPV)",
+    "Donut Chart (Top 5 Department by NPV)",
+    "Interactive Country Filter Dropdown"
+  ],
+  "dataset_preparation": [
+    "Merged disparate financial data sources into a single dataset",
+    "Calculated Net Profit field (Forecast - Budget)",
+    "Calculated Overall Profit percentage variance",
+    "Categorized IT Departments and Cost Elements for donut chart aggregations",
+    "Standardized date formatting for January time-series analysis",
+    "Aggregated Budget and Forecast values by country and department"
+  ],
+  "possible_ml_use_cases": [
+    "Budget variance analysis and anomaly detection",
+    "Predictive financial forecasting based on historical trends",
+    "Cost optimization modeling for high-NPV cost elements",
+    "Automated profitability insights by department or region",
+    "Resource allocation optimization based on forecast accuracy"
+  ]
+},
+
+{
+  "id": 18,
+  "platform": "Google Looker Studio",
+  "dashboard_name": "Emerging-Skills-Analysis-Sample-18.jpg",
+  "dashboard_source": "https://datastudio.google.com/s/lkm6e1nxoiY",
+  "dataset_name": "Job-Postings-Emerging-Skills-Sample-18.xlsx, Languages-Emerging-Skills-Sample-18.xlsx & Scraped-Languages-Emerging-Skills-Sample-18.csv",
+  "dataset_source": "https://github.com/Jagger-01/Building-A-Dashboard-With-Google-Looker-Studio/tree/main/Module_1_Data_Collection",
+  "dataset_file": "Datasets/Job-Postings-Emerging-Skills-Sample-18.xlsx, Datasets/Languages-Emerging-Skills-Sample-18.xlsx, Datasets/Scraped-Languages-Emerging-Skills-Sample-18.csv",
+  "dataset_format": "xlsx, csv",
+  "screenshot_file": "Screenshots/Emerging-Skills-Analysis-Sample-18.jpg",
+  "business_domain": "Labor Market & Human Capital Analytics",
+  "dashboard_components": [
+    "Pie Chart (Respondent distribution by Gender: 93.5% Man, 6.5% Woman)",
+    "Geographic Choropleth Map (Global Respondent Count for Countries using Google Maps)",
+    "Line Chart (Respondent Count by Age showing demographic distribution across a 0-800 scale)",
+    "Stacked Bar Chart (Respondent Count by Gender, classified by Formal Education Level including Bachelor's, Master's, and Associate degrees)"
+  ],
+  "dataset_preparation": [
+    "Aggregated respondent counts by demographic dimensions (Age, Gender, Country)",
+    "Standardized categorical data for Formal Education Level across multiple survey entries",
+    "Mapped geographical data to country entities for choropleth visualization",
+    "Integrated scraped salary data with job postings and language requirements",
+    "Cleaned currency strings in salary data and converted them to numeric formats"
+  ],
+  "possible_ml_use_cases": [
+    "Salary prediction modeling based on education level and years of experience",
+    "Clustering analysis to identify regional clusters of specific emerging skills",
+    "Time-series forecasting of job demand for specific programming languages",
+    "Classification model to predict formal education level based on age and geographic location"
+  ]
+},
+
+{
+  "id": 19,
+  "platform": "Google Looker Studio",
+  "dashboard_name": "Accidents-Sample-19.jpg",
+  "dashboard_source": "https://github.com/AllenLeiZhao/Bicycle_Accident_Analysis_in_Great_Britain_1979-2018/tree/main/assets",
+  "dataset_name": "Bikers-Accidents-Sample-19.csv & Accidents-Sample-19.csv",
+  "dataset_source": "https://github.com/AllenLeiZhao/Bicycle_Accident_Analysis_in_Great_Britain_1979-2018/tree/main/data",
+  "dataset_file": "Datasets/Bikers-Accidents-Sample-19.csv, Datasets/Accidents-Sample-19.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Accidents-Sample-19.jpg",
+  "business_domain": "Public Safety & Transportation Analytics",
+  "dashboard_components": [
+    "KPI Scorecards (Record Count, Number of Casualties, Avg Casualties per Accident, Avg Vehicles per Accident)",
+    "Horizontal Bar Chart (Accidents by Road Type)",
+    "Horizontal Bar Chart (Accidents by Weather Condition)",
+    "Area Line Chart (Accidents Over Time from 1979 to 2018)",
+    "Donut Chart (Accident Distribution by Light Condition: Daylight, Darkness lights lit, Darkness no lights)"
+  ],
+  "dataset_preparation": [
+    "Joined 'Accidents' and 'Bikers' tables using 'Accident_Index' as the primary key",
+    "Parsed 'Date' field to extract 'Year' for long-term historical trend analysis",
+    "Calculated average measures for casualties and vehicles per incident using aggregation",
+    "Standardized categorical values for Weather, Road Type, and Light Conditions to handle missing or 'Unknown' data",
+    "Filtered records to specifically isolate bicycle-related accidents from broader traffic data"
+  ],
+  "possible_ml_use_cases": [
+    "Severity prediction based on environmental factors (Weather, Light, Road Type)",
+    "Time-series forecasting for future accident rates to assist in urban planning",
+    "Clustering road types by risk levels to identify dangerous infrastructure designs",
+    "Anomaly detection to identify specific years with significant policy-driven safety improvements",
+    "Impact analysis of speed limits on casualty rates"
+  ]
+},
+
+{
+  "id": 20,
+  "platform": "Google Looker Studio",
+  "dashboard_name": "Hospital_Analysis_Sample-20.jpg",
+  "dashboard_source": "https://github.com/ffatahillah7/Dashboard-Hospital-Using-Looker-Studio/blob/main/Data_Rumah_Sakit%20(1)_page-0001.jpg",
+  "dataset_name": "Hospital_Analysis_Sample-20.xlsx",
+  "dataset_source": "https://github.com/ffatahillah7/Dashboard-Hospital-Using-Looker-Studio/blob/main/Data%20Pasien.xlsx",
+  "dataset_file": "Datasets/Hospital_Analysis_Sample-20.xlsx",
+  "dataset_format": "xlsx",
+  "screenshot_file": "Screenshots/Hospital_Analysis_Sample-20.jpg",
+  "business_domain": "Healthcare Management",
+  "dashboard_components": [
+    "KPI Scorecards (Total Patients, Pavilion, Alamanda, Rosalia counts)",
+    "Doctor Filter Sidebar (Dokter Penanggung Jawab with search functionality)",
+    "TreeMap (Daftar Penyakit Pasien showing disease distribution like Diabetes, Stroke, etc.)",
+    "Data Table (Detailed patient records with conditional formatting for status)",
+    "Clustered Column Chart (Comparison of Patient Check-in and Check-out dates by month)",
+    "Stacked Column Chart (Monthly patient status: Recovered, Deceased, or Active)",
+    "Global Date Range Control"
+  ],
+  "dataset_preparation": [
+    "Date standardization for 'Tanggal Masuk' and 'Tanggal Keluar' to allow monthly trend analysis",
+    "Categorization of room codes (Ruangan) into specific wards (Pavilion, Alamanda, Rosalia)",
+    "Mapping of patient outcomes (Status) to numerical values for aggregation",
+    "Cleaning and deduplication of doctor names (Dokter Penanggung Jawab)",
+    "Aggregation of disease types to create categorical hierarchies"
+  ],
+  "possible_ml_use_cases": [
+    "Predicting patient length of stay based on disease type and check-in season",
+    "Forecasting hospital bed occupancy rates by ward",
+    "Sentiment analysis or risk assessment based on disease prevalence trends",
+    "Predicting patient outcomes (Recovered vs. Deceased) using clinical indicators",
+    "Resource allocation optimization for doctors based on historical patient load"
+  ]
+},
+
+{
+  "id": 21,
+  "platform": "IBM Cognos Analytics",
+  "dashboard_name": "Slack-Survey-Sample-21.jpg",
+  "dashboard_source": "https://github.com/cultek15/Slack-Survey-Dashboard/tree/main/dashboards",
+  "dataset_name": "Slack-Survey-Sample-21.csv",
+  "dataset_source": "https://drive.google.com/file/d/1VnaXHfSkUtkCWYCja8Xs5lUvofgKuyN-/view?usp=sharing",
+  "dataset_file": "Datasets/Slack-Survey-Sample-21.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Slack-Survey-Sample-21.jpg",
+  "business_domain": "Technology & Developer Insights",
+  "dashboard_components": [
+    "Horizontal Bar Chart (Top 10 Desired Programming Languages)",
+    "Column Chart (Top 10 Desired Databases)",
+    "TreeMap (Top 10 Desired Platforms)",
+    "Packed Bubble Chart (Top 10 Desired Webframe)",
+    "Color-coded legends for technology categories"
+  ],
+  "dataset_preparation": [
+    "Unpivoted multi-select survey responses to isolate individual technologies",
+    "Filtered dataset by 'Type' to specifically analyze 'Desired' technologies vs 'Current' skills",
+    "Categorized technologies into Domains (Language, Database, Platform, Webframe)",
+    "Calculated distinct count of ResponseId to determine popularity rankings",
+    "Mapped technology names to standardized labels for visual consistency"
+  ],
+  "possible_ml_use_cases": [
+    "Predicting technology adoption trends for the next fiscal year",
+    "Developer persona clustering based on tech stack interests",
+    "Recommender system for upskilling based on current vs desired technology gaps",
+    "Market gap analysis for emerging cloud platforms and frameworks",
+    "Correlation analysis between educational level and desired programming languages"
+  ]
+},
+
+{
+  "id": 22,
+  "platform": "IBM Cognos Analytics",
+  "dashboard_name": "Sales-Performance-Sample-22.png",
+  "dashboard_source": "https://github.com/mangeshtate/Sales-Performance-Dashboard-and-Scorecard/blob/main/Scorecard_Screenshots/Screenshot%202025-04-26%20185008.png",
+  "dataset_name": "Sales-Performance-Sample-22.xlsx",
+  "dataset_source": "https://github.com/mangeshtate/Sales-Performance-Dashboard-and-Scorecard/tree/main/Dataset",
+  "dataset_file": "Datasets/Sales-Performance-Sample-22.xlsx",
+  "dataset_format": "xlsx",
+  "screenshot_file": "Screenshots/Sales-Performance-Sample-22.png",
+  "business_domain": "Sales Performance & Goal Management",
+  "dashboard_components": [
+    "Status Summary Ribbon (Overdue, Behind, At risk, On track, Not started, Completed counters)",
+    "Performance Scorecard (Metrics List)",
+    "Goal Progress Tracking (Current vs Target values)",
+    "Status Indicator Pills (Color-coded)",
+    "Owner Assignment Avatars (Assigned to)",
+    "Due Date tracking columns",
+    "Trend Sparklines (Empty placeholders in view)"
+  ],
+  "dataset_preparation": [
+    "Defined business goals and specific targets for key sales metrics",
+    "Calculated 'International Sales %' and 'Average Buyer Rating' from raw transactional data",
+    "Aggregated 'Total Sales' and 'Total Quantity' metrics across multiple categories",
+    "Implemented conditional logic to assign statuses (Behind, At risk, On track) based on target variance",
+    "Linked performance metrics to specific team members for accountability"
+  ],
+  "possible_ml_use_cases": [
+    "Predicting the likelihood of missing a goal based on current 'Behind' status",
+    "Forecasting total sales and quantity for future quarters",
+    "Sentiment analysis on 'Review' text to proactively improve 'Average Buyer Rating'",
+    "Identifying factors leading to shipping delays or high shipping charges",
+    "Automated alerts for metrics entering 'At risk' or 'Overdue' states"
+  ]
+},
+
+{
+  "id": 23,
+  "platform": "IBM Cognos Analytics",
+  "dashboard_name": "Customer-Loyalty-Sample-23.png",
+  "dashboard_source": "https://github.com/pramodpatil0520/customer-loyalty-dashboard/tree/main/Dashboard_Screenshots",
+  "dataset_name": "Customer-Loyalty-Sample-23.csv",
+  "dataset_source": "https://github.com/pramodpatil0520/customer-loyalty-dashboard/tree/main/Dataset",
+  "dataset_file": "Datasets/Customer-Loyalty-Sample-23.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Customer-Loyalty-Sample-23.png",
+  "business_domain": "Retail & Customer Loyalty Analytics",
+  "dashboard_components": [
+    "Geographic Map (Revenue by Region and Quantity Sold by Lat/Long coordinates)",
+    "Radial Charts (Quantity Sold by Coupon Response grouped by Product Line)",
+    "Combination Chart (Unit Cost as Columns vs. Quantity Sold as Line by City)",
+    "Packed Bubble Chart (Department Sales by Loyalty Status: Bronze, Elite, Gold, Platinum, Silver, VIP)",
+    "Color-coded legends for Revenue and Quantity thresholds"
+  ],
+  "dataset_preparation": [
+    "Aggregated sales metrics (Revenue, Unit Cost, Quantity Sold) by geographic dimensions",
+    "Mapped Latitude and Longitude coordinates for precise spatial visualization",
+    "Categorized customers into Loyalty Status tiers for segment analysis",
+    "Standardized product lines (Smart Electronics, Kitchen Appliances, etc.)",
+    "Calculated Customer Lifetime Value (CLV) aggregates for loyalty counting"
+  ],
+  "possible_ml_use_cases": [
+    "Customer Lifetime Value (CLV) prediction",
+    "Propensity modeling for Coupon Response optimization",
+    "Churn prediction based on Loyalty Status and membership duration",
+    "Market basket analysis to identify high-revenue product line combinations",
+    "Geographic demand forecasting for inventory management"
+  ]
+},
+
+{
+  "id": 24,
+  "platform": "IBM Cognos Analytics",
+  "dashboard_name": "Developer-Survey-Sample-24.jpg",
+  "dashboard_source": "https://github.com/Hannah-61/IBM-Cognos-Dashboard-Analytics/blob/main/YHanifeSahin%20IBM%20Cognos.pdf",
+  "dataset_name": "Developer-Survey-Sample-24.csv",
+  "dataset_source": "https://www.kaggle.com/datasets/mchirico/stack-overflow-developer-survey-results-2019",
+  "dataset_file": "Datasets/Developer-Survey-Sample-24.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Developer-Survey-Sample-24.jpg",
+  "business_domain": "Technology Trends & Developer Insights",
+  "dashboard_components": [
+    "Horizontal Bar Chart (Top 10 Languages worked with)",
+    "Clustered Bar Chart (Top 10 Databases worked with)",
+    "Word Cloud (Top 10 Platforms worked with)",
+    "Packed Bubble Chart (Top 10 Web Frameworks worked with)",
+    "Interactive filtering through chart legends"
+  ],
+  "dataset_preparation": [
+    "Unpivoted and split semicolon-separated strings in 'WorkedWith' columns into individual technology records",
+    "Aggregated distinct counts of 'Respondent' IDs to determine technology popularity",
+    "Handled '(no value)' or NA entries to ensure clean visualization rankings",
+    "Categorized technologies into specific domains: Languages, Databases, Platforms, and WebFrames",
+    "Standardized technology labels (e.g., AWS, Docker, JavaScript) for consistent cross-chart analysis"
+  ],
+  "possible_ml_use_cases": [
+    "Predicting professional developer salary based on technology stack",
+    "Developer persona clustering for targeted recruitment or marketing",
+    "Forecasting future technology demand based on 'DesireNextYear' vs 'WorkedWith' gaps",
+    "Recommender system for developers to identify the most complementary skills to learn",
+    "Sentiment analysis of career and job satisfaction based on organizational size"
+  ]
+},
+
+{
+  "id": 25,
+  "platform": "Tableau",
+  "dashboard_name": "Post-Partum-Analysis-Sample-25.png",
+  "dashboard_source": "https://github.com/Demon-2-Angel/Post-Partum-Analysis/tree/main/Images",
+  "dataset_name": "Post-Partum-Analysis-Sample-25.csv",
+  "dataset_source": "https://github.com/Demon-2-Angel/Post-Partum-Analysis/blob/main/post%20partum%20data%20set.csv",
+  "dataset_file": "Datasets/Post-Partum-Analysis-Sample-25.csv",
+  "dataset_format": "csv",
+  "screenshot_file": "Screenshots/Post-Partum-Analysis-Sample-25.png",
+  "business_domain": "Healthcare & Mental Health",
+  "dashboard_components": [
+    "Categorical Matrix Chart (Analyzing Sleeping Problems vs Concentration issues)",
+    "Stacked Bar Chart (Visualizing the relationship between bonding problems and family irritation)",
+    "Age Group Filter/Slicer",
+    "Heatmap-style labels for qualitative frequency responses (e.g., 'Two or more days a week')",
+    "Count-based vertical axis for symptom volume analysis"
+  ],
+  "dataset_preparation": [
+    "Transformation of survey string responses into consistent categorical labels",
+    "Aggregation of response counts grouped by intersecting health factors",
+    "Age range binning for demographic-specific analysis",
+    "Standardization of qualitative inputs for sleep frequency and concentration difficulty",
+    "Cross-tabular structuring to support multi-variable symptom mapping"
+  ],
+  "possible_ml_use_cases": [
+    "Predictive modeling to identify risk levels for postpartum bonding issues",
+    "Classification analysis to determine the impact of sleep deprivation on mental health markers",
+    "Clustering of symptoms to define common postpartum patient personas",
+    "Correlation analysis to rank the most significant predictors of clinical irritation",
+    "Anomaly detection for severe symptom combinations requiring intervention"
+  ]
+}
+
+]
